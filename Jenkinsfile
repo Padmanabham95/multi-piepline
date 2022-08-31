@@ -1,4 +1,4 @@
-node ('Master')
+node ("Built-In Node")
 {
     stage ("Continous Download")
     {
