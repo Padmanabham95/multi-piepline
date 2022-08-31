@@ -4,10 +4,6 @@ node ('Built-In Node')
     {
       git 'https://github.com/Padmanabham95/multi-pipeline.git'  
     }
-    stage ("Continous Build")
-    {
-      sh 'mvn package'
-    }
 }
 
     
