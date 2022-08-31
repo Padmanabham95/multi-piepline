@@ -5,7 +5,10 @@ pipeline
     {
         stage ("Continous Download")
         {
-          git 'https://github.com/Padmanabham95/multi-pipeline.git'  
+            steps
+            {
+            git 'https://github.com/Padmanabham95/multi-pipeline.git'  
+            }  
         }
     }
 }
