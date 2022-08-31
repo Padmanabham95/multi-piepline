@@ -1,9 +1,14 @@
-node ("Built-In Node")
+pipeline
 {
-    stage ("Continous Download")
+    agent any
+    stages
     {
-      git 'https://github.com/Padmanabham95/multi-pipeline.git'  
+        stage ("Continous Download")
+        {
+          git 'https://github.com/Padmanabham95/multi-pipeline.git'  
+        }
     }
 }
+
 
     
